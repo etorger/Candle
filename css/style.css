@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 2;
+}
+
+
+
+
+.heading-solid {
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    background-color: rgb(46, 112, 85);
+    height: 10rem;
+    padding-top: 3rem;
+    clip-path: polygon(50% 16%, 100% 0, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 0);
+    margin: top -30rem;
+}
+
+.text-solid {
+    text-align: center;
+    background-color: rgb(46, 112, 85);
+    height: 8rem;
+    padding-top: 2rem;
+
+}
+
+
+
+.btn {
+    color: white;
+    display: inline-block;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 3rem;
+    padding: 1rem;
+    transition: all 0.3s;
+    text-align: center;
+    padding-top: 400px;
+    padding-left: 700px;
+}
+
+.packaging-image {
+    background-image: url('../img/candle2.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+    text-decoration: none;
+    height: 70vh;
+    padding-top: 13rem;
+}
+
+.tutorials-image {
+    background-image: url('../img/candle1.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+    text-decoration: none;
+    height: 70vh;
+    padding-top: 13rem;
+
+
+}
+.intro-image {
+    height: 70vh;
+    background-image: url('../img/candle3.jpg');
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+    padding-top: 13rem;
+}
+
+.intro-text {
+    background-color: rgba(46, 112, 84, 0.582);
+}
+
+.packaging-text {
+background-color: rgb(245, 227, 195);
+text-align: center;
+text-transform: uppercase;
+}
+
+.footer {
+    height: 200px;
+    background-color: burlywood;
+    padding-top: 2rem;
+    color:#914c2f ;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.intro-image__text a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color:burlywood;
+    background-color: rgba(165, 42, 42, 0.493);
+    padding: 1rem;
+    border: 3px solid burlywood;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.intro-image__text a:hover{
+    transform: scale(1.1);
+}
+
+.packaging-image__text a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color:burlywood;
+    background-color: rgba(165, 42, 42, 0.493);
+    padding: 1rem;
+    border: 3px solid burlywood;
+    transition: all 0.3s ease-in-out;  
+}
+
+.packaging-image__text a:hover{
+    transform: scale(1.1);
+}
+
+.tutorials-image__text a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color:burlywood;
+    background-color: rgba(165, 42, 42, 0.493);
+    padding: 1rem;
+    border: 3px solid burlywood;
+    transition: all 0.3s ease-in-out;
+}
+
+.tutorials-image__text a:hover{
+    transform: scale(1.1);
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.footer ul li:hover {
+    transform: scale(1.3);
+}
